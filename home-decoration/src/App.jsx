@@ -10,8 +10,8 @@ const App = () => {
     <div>
       <Navbar />
       <Cover />
-      <Card />
       <Content />
+      <Card />
     </div>
   );
 };
