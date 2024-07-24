@@ -42,7 +42,7 @@ const Cover = () => {
             whileInView={{ x: 0, opacity: 1 }}
             viewport={{ once: true }}
             transition={{
-              delay: 0.3,
+              delay: 0.6,
               x: { type: "spring", stiffness: 60 },
               opacity: { duration: 0.6 },
               ease: "easeIn",
