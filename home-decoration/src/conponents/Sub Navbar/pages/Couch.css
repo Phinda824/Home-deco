@@ -1,0 +1,101 @@
+.couch-container {
+  margin: 90px 130px 0 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 70px;
+}
+.image-couch {
+  width: 650px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-card {
+  width: 400px;
+  height: 100%;
+  background-color: #e8e6f1;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-card img {
+  height: 245px;
+}
+.couch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-left: 20px;
+}
+.pick-couch {
+  width: 155px;
+  height: 155px;
+  background-color: rgb(232, 230, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+.pick-couch img {
+  width: 150px;
+}
+
+.text-couch h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #3b3846;
+  margin-top: 20px;
+}
+.text-couch .price-rate {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.text-couch .price {
+  font-size: 32px;
+  font-weight: 500;
+  color: #3b3846;
+}
+.text-couch .rate {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #c2ce1e;
+  gap: 5px;
+}
+.text-couch .descript {
+  font-size: 16px;
+  color: #5b566b;
+  margin-top: 20px;
+  line-height: 24px;
+}
+.text-couch .deliver {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.text-couch .deliver i {
+  font-size: 20px;
+  color: #5b566b;
+}
+.text-couch .deliver p {
+  font-size: 16px;
+  color: #5b566b;
+}
+.text-couch .btn-cart {
+  width: 220px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 30px;
+  background: #b47603;
+  border: none;
+}

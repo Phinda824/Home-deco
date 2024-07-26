@@ -1,0 +1,29 @@
+.active {
+  color: #b47603;
+}
+nav {
+  margin-top: 80px;
+  position: relative;
+}
+nav h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #3b3846;
+  text-align: center;
+}
+nav ul {
+  width: 400px;
+  display: flex;
+  position: absolute;
+  top: 160%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #3b3846;
+}
