@@ -51,9 +51,29 @@ input {
   color: #3b3846;
   cursor: pointer;
 }
+.cart {
+  display: flex;
+  justify-content: center;
+}
 .cart i {
   font-size: 24px;
   color: #ffffff;
   margin-left: 20px;
   cursor: pointer;
+}
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #b47603;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+  margin-left: -5px;
+  cursor: pointer;
+}
+.dot p {
+  font-size: 12px;
+  color: #ffffff;
 }

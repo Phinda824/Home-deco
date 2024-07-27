@@ -20,6 +20,9 @@ const Navbar = () => {
         </div>
         <div className="cart">
           <i class="fa-solid fa-bag-shopping"></i>
+          <div className="dot">
+            <p>0</p>
+          </div>
         </div>
       </div>
     </div>

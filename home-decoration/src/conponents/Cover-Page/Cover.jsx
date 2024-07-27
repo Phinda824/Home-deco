@@ -7,7 +7,7 @@ const Cover = () => {
   return (
     <div className="container">
       <div className="content">
-        <div className="left-side">
+        <div className="content-text">
           <div className="heading">
             Make Your Interior More Minimalistic & Modern
           </div>
@@ -16,7 +16,9 @@ const Cover = () => {
             animi harum sit reprehenderit incidunt est distinctio cumque!
             Quaerat, hic!
           </p>
-          <button className="shop-btn">Shop Now</button>
+          <div className="shop-btn">
+            <button className="submit">Shop Now</button>
+          </div>
         </div>
       </div>
 
