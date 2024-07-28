@@ -1,0 +1,48 @@
+.testimony {
+  padding: 100px 80px 80px 80px;
+}
+.testimony h1 {
+  font-size: 38px;
+  font-weight: 500;
+  color: #3b3846;
+  text-align: center;
+}
+.testimony-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  margin-top: 80px;
+}
+.person-face {
+  display: flex;
+  justify-content: center;
+}
+.person-face img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #3b3846;
+  text-align: center;
+  margin-top: 20px;
+}
+.quotes {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+.quotes i {
+  font-size: 30px;
+  color: #d4d2da;
+}
+.person p {
+  font-size: 14px;
+  color: #726e80;
+  text-align: center;
+  margin-top: 20px;
+}

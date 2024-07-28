@@ -13,6 +13,7 @@ import Table from "./conponents/Sub Navbar/pages/Table";
 import Home from "./conponents/Sub Navbar/pages/Home";
 import Bed from "./conponents/Sub Navbar/pages/Bed";
 import Shop from "./conponents/Shop/Shop";
+import Testimonial from "./conponents/Testmonial/Testimonial";
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
         <Route path="/bed" element={<Bed />} />
       </Routes>
       <Shop />
+      <Testimonial />
     </div>
   );
 };
