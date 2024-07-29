@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./All.css";
+import "./Bed.css";
 import chair1 from "/images/chair1.webp";
 import chair3 from "/images/chair3.webp";
 import chair4 from "/images/chair4.png";

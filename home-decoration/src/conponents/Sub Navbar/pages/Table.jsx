@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./All.css";
+import "./Table.css";
 import table5 from "/images/table5.png";
 import chair3 from "/images/chair3.webp";
 import chair4 from "/images/chair4.png";
