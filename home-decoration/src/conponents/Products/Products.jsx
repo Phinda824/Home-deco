@@ -4,63 +4,27 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import chair8 from "/images/chair8.webp";
-import couch1 from "/images/couch1.png";
-import couch2 from "/images/couch2.webp";
-import table1 from "/images/Table1.jpg";
-import tvstand1 from "/images/Tv-stand1.webp";
-import table2 from "/images/table2.jpg";
-import table3 from "/images/table3.png";
+import preview3 from "/images/preview3.jpg";
+import preview from "/images/preview.jpeg";
+import bedroom from "/images/bedroom1.webp";
+import tvstand from "/images/tvstand.jpg";
 
 const data = [
   {
-    img: chair8,
-    name: "Chair",
-    rate: "4.5",
-    beforPrice: "3599.99",
-    price: "2999.99",
+    img: preview3,
+    name: "New Dinning Collection",
   },
   {
-    img: tvstand1,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
+    img: preview,
+    name: "New Seating Room Collection",
   },
   {
-    img: table1,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
+    img: bedroom,
+    name: "New Bedroom Collection",
   },
   {
-    img: couch2,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
-  },
-  {
-    img: tvstand1,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
-  },
-  {
-    img: table2,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
-  },
-  {
-    img: table3,
-    name: "Chair",
-    rate: "5.0",
-    beforPrice: "3599.99",
-    price: "2999.99",
+    img: tvstand,
+    name: "New Modern Tv Stand Collection",
   },
 ];
 
@@ -69,7 +33,7 @@ const Products = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
   };
   return (
@@ -80,18 +44,7 @@ const Products = () => {
             <div className="card-p">
               <div className="section-p">
                 <img src={d.img} alt="" />
-              </div>
-
-              <div className="p-text">
-                <h1>{d.name}</h1>
-                <div className="rating">
-                  <i class="fa-solid fa-star"></i>
-                  <div className="p-rate">{d.rate}</div>
-                </div>
-                <div className="price-p">
-                  <div className="before-p">R{d.beforPrice}</div>
-                  <div className="price-p">R{d.price}</div>
-                </div>
+                <div className="img-text">{d.name}</div>
               </div>
             </div>
           ))}

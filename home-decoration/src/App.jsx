@@ -22,7 +22,7 @@ const App = () => {
       <Navbar />
       <Cover />
       <Content />
-      <Card />
+      <Products />
       <List />
       <Routes>
         <Route path="/all" element={<All />} />
@@ -34,7 +34,6 @@ const App = () => {
       </Routes>
       <Shop />
       <Testimonial />
-      <Products />
     </div>
   );
 };
