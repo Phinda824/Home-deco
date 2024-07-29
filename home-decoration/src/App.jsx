@@ -14,6 +14,7 @@ import Home from "./conponents/Sub Navbar/pages/Home";
 import Bed from "./conponents/Sub Navbar/pages/Bed";
 import Shop from "./conponents/Shop/Shop";
 import Testimonial from "./conponents/Testmonial/Testimonial";
+import Products from "./conponents/Products/Products";
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
       </Routes>
       <Shop />
       <Testimonial />
+      <Products />
     </div>
   );
 };
