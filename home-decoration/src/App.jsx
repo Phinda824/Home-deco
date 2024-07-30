@@ -15,11 +15,18 @@ import Bed from "./conponents/Sub Navbar/pages/Bed";
 import Shop from "./conponents/Shop/Shop";
 import Testimonial from "./conponents/Testmonial/Testimonial";
 import Products from "./conponents/Products/Products";
+import Items from "./conponents/Categories/Items";
+import Cart from "./conponents/Cart";
 
 const App = () => {
   return (
     <div>
       <Navbar />
+      <Routes>
+        <Route path="/" element={<Cover />} />
+        <Route path="/shop" element={<Content />} />
+        <Route path="/cart" element={<Cart />} />
+      </Routes>
       <Cover />
       <Content />
       <Products />
@@ -32,6 +39,7 @@ const App = () => {
         <Route path="/home" element={<Home />} />
         <Route path="/bed" element={<Bed />} />
       </Routes>
+      <Items />
       <Shop />
       <Testimonial />
     </div>
