@@ -23,8 +23,6 @@ const App = () => {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Cover />} />
-        <Route path="/shop" element={<Content />} />
         <Route path="/cart" element={<Cart />} />
       </Routes>
       <Cover />

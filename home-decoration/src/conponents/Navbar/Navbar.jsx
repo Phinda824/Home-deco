@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menu, setMenu] = useState("home");
@@ -15,36 +16,43 @@ const Navbar = () => {
             setMenu("home");
           }}
         >
-          Home {menu == "home" ? <hr /> : <></>}
+          <Link to="/">Home</Link> {menu == "home" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("shop");
           }}
         >
-          Shop{menu == "shop" ? <hr /> : <></>}
+          <Link to="/shop">Shop</Link>
+          {menu == "shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("about");
           }}
         >
-          About Us{menu == "about" ? <hr /> : <></>}
+          <Link to="/about">About Us</Link>
+          {menu == "about" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("contacts");
           }}
         >
-          Contacts{menu == "contacts" ? <hr /> : <></>}
+          <Link to="/contacts">Contacts</Link>
+          {menu == "contacts" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="rigth-side">
         <div className="nav-login">
-          <button>Login</button>
+          <Link to="/login">
+            <button>Login</button>
+          </Link>
         </div>
         <div className="cart">
-          <i class="fa-solid fa-bag-shopping"></i>
+          <Link to="/cart">
+            <i class="fa-solid fa-bag-shopping"></i>
+          </Link>
           <div className="cart-count">0</div>
         </div>
       </div>
