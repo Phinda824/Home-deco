@@ -1,0 +1,66 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+import "./Header.css";
+
+const nav_links = [
+  {
+    path: "home",
+    display: "home",
+  },
+  {
+    path: "shop",
+    display: "shop",
+  },
+  {
+    path: "cart",
+    display: "cart",
+  },
+];
+
+const Header = () => {
+  return (
+    <div className="navbar">
+      <div className="logo">
+        <i class="fa-solid fa-chair"></i>
+        <p>H.Decor</p>
+      </div>
+
+      <ul className="menu">
+        {nav_links.map((item, index) => (
+          <li className="nav_item" key={index}>
+            <NavLink
+              to={item.path}
+              className={(navClass) => (navClass.isActive ? "nav_active" : "")}
+            >
+              {item.display}
+            </NavLink>
+          </li>
+        ))}
+      </ul>
+
+      <div className="rigth_side">
+        <div className="nav_login">
+          <button>Login</button>
+        </div>
+        <div className="nav_icons">
+          <span className="fav_icon">
+            <i class="fa-regular fa-heart"></i>
+            <span className="count">0</span>
+          </span>
+          <span className="cart_icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span className="count">0</span>
+          </span>
+        </div>
+      </div>
+
+      <div className="menu_icon">
+        <span>
+          <i class="fa-solid fa-bars"></i>
+        </span>
+      </div>
+    </div>
+  );
+};
+
+export default Header;
