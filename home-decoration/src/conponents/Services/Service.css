@@ -1,0 +1,29 @@
+.card-preview {
+  margin: 0 auto;
+  width: 1155px;
+  height: 210px;
+  background: #ffffff;
+  margin-top: -100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px 80px;
+}
+
+.block .icon {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.block i {
+  margin: 0 auto;
+  font-size: 40px;
+  color: #022a36;
+  text-align: center;
+}
+.block p {
+  width: 150px;
+  font-size: 16px;
+  color: #3b3846;
+  text-align: center;
+}
