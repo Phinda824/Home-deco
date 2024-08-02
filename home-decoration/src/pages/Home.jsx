@@ -41,7 +41,10 @@ const Home = () => {
           <h1>New Collections</h1>
           <Collections />
         </div>
-        <BestProducts />
+        <div className="sales">
+          <h1>Our Best Sales</h1>
+          <BestProducts />
+        </div>
       </div>
     </div>
   );
