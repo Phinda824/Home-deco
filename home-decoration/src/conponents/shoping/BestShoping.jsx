@@ -1,23 +1,26 @@
 import React from "react";
-import "./Shop.css";
+import "../../styles/bestShoping.css";
 import background from "/images/image.jpg";
+import { Link } from "react-router-dom";
 
-const Shop = () => {
+const BestShoping = () => {
   return (
-    <div className="shop-container">
+    <div className="shop_container">
       <img src={background} alt="" />
-      <div className="shop-text">
+      <div className="shop_text">
         <i class="fa-solid fa-store"></i>
         <div className="descr">
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
             labore delectus neque tenetur dolores inventore.
           </p>
-          <button className="btn-sop">Shop Now</button>
+          <button className="btn_sop">
+            <Link to="/shop">Shop Now</Link>
+          </button>
         </div>
       </div>
     </div>
   );
 };
 
-export default Shop;
+export default BestShoping;

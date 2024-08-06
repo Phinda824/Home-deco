@@ -9,6 +9,7 @@ import ProductCard from "../conponents/ProductList/ProductCard";
 import Collections from "../conponents/Collections/Collections";
 import List from "../conponents/Sub Navbar/List";
 import BestProducts from "../conponents/Best_Products/BestProducts";
+import BestShoping from "../conponents/shoping/BestShoping";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
           <h1>Our Best Sales</h1>
           <BestProducts />
         </div>
+        <BestShoping />
       </div>
     </div>
   );
