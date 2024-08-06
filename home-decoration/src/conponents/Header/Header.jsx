@@ -52,12 +52,12 @@ const Header = () => {
             <span className="count">0</span>
           </span>
         </div>
-      </div>
 
-      <div className="menu_icon">
-        <span>
-          <i class="fa-solid fa-bars"></i>
-        </span>
+        <div className="menu_icon">
+          <span>
+            <i class="fa-solid fa-bars"></i>
+          </span>
+        </div>
       </div>
     </div>
   );

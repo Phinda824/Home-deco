@@ -1,9 +1,13 @@
+.card-block {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .card-preview {
-  margin: 0 auto;
   width: 1155px;
   height: 210px;
   background: #ffffff;
-  margin-top: -100px;
   display: flex;
   justify-content: space-between;
   gap: 10px;
@@ -26,4 +30,24 @@
   font-size: 16px;
   color: #3b3846;
   text-align: center;
+}
+
+@media only screen and (max-width: 760px) {
+  .card-block {
+    top: 100%;
+  }
+  .card-preview {
+    width: 600px;
+    height: 150px;
+    gap: 10px;
+    padding: 20px 20px;
+  }
+  .block i {
+    font-size: 26px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }

@@ -1,0 +1,129 @@
+.footer {
+  background: #231c3d;
+  margin-top: 50px;
+  padding: 40px 70px 20px 70px;
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.card {
+  width: 100%;
+}
+.card .text {
+  width: 380px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #aaa8af;
+  margin-top: 25px;
+}
+.text_header {
+  height: 50px;
+  position: relative;
+}
+.text_header h1 {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.infor {
+  list-style: none;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.infor li a {
+  font-size: 16px;
+  color: #aaa8af;
+  font-weight: 300;
+}
+.infor .contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+.contact i {
+  color: #aaa8af;
+}
+.contact p {
+  font-size: 14px;
+  color: #aaa8af;
+}
+
+.copyright {
+  margin-top: 40px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #aaa8af;
+}
+
+@media only screen and (max-width: 760px) {
+  .footer {
+    background: #231c3d;
+    margin-top: 50px;
+    padding: 30px 40px 20px 40px;
+  }
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  .card {
+    width: 200px;
+  }
+  .card .text {
+    width: 160px;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .text_header {
+    height: 40px;
+    position: relative;
+  }
+  .text_header h1 {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .text_header .logo {
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .infor {
+    margin-top: 20px;
+    gap: 15px;
+  }
+  .infor li a {
+    font-size: 14px;
+  }
+  .infor .contact {
+    gap: 10px;
+  }
+  .contact i {
+    color: #aaa8af;
+  }
+  .contact p {
+    font-size: 12px;
+    color: #aaa8af;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    font-size: 14px;
+  }
+}

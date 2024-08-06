@@ -7,9 +7,9 @@ import products from "../assets/data/products";
 import Service from "../conponents/Services/Service";
 import ProductCard from "../conponents/ProductList/ProductCard";
 import Collections from "../conponents/Collections/Collections";
-import List from "../conponents/Sub Navbar/List";
 import BestProducts from "../conponents/Best_Products/BestProducts";
 import BestShoping from "../conponents/shoping/BestShoping";
+import Testimonial from "../conponents/Testmonial/Testimonial";
 
 const Home = () => {
   return (
@@ -30,9 +30,9 @@ const Home = () => {
             </button>
           </div>
         </div>
+        <Service />
       </div>
 
-      <Service />
       <div className="sales-container">
         <div className="product-section">
           <h1>See Our Quality Product</h1>
@@ -47,6 +47,10 @@ const Home = () => {
           <BestProducts />
         </div>
         <BestShoping />
+        <div className="sales">
+          <h1>Testimonial</h1>
+          <Testimonial />
+        </div>
       </div>
     </div>
   );

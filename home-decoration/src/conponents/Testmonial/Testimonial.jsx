@@ -6,7 +6,6 @@ import face2 from "/images/face2.jpg";
 const Testimonial = () => {
   return (
     <div className="testimony">
-      <h1>Testimonial</h1>
       <div className="testimony-container">
         <div className="person">
           <div className="person-face">

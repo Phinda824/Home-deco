@@ -2,13 +2,17 @@ import React, { useState } from "react";
 import "../../styles/bestProducts.css";
 
 import chair1 from "/images/chair1.webp";
-import chair3 from "/images/chair3.webp";
+import tvstand5 from "/images/tvstand5.jpg";
+import table7 from "/images/table7.jpg";
 import chair4 from "/images/chair4.png";
-import chair5 from "/images/chair5.jpg";
+import chair14 from "/images/chair14.webp";
+import chair2 from "/images/chair2.jpg";
 import table2 from "/images/table2.jpg";
-import couch5 from "/images/couch5.webp";
-import couch4 from "/images/couch4.webp";
-import tvstand1 from "/images/tvstand1.png";
+import couch from "/images/couch.png";
+import couch9 from "/images/couch9.jpg";
+import tvstand3 from "/images/tvstand3.jpg";
+import tvstand4 from "/images/tvstand4.jpg";
+import table6 from "/images/table6.jpg";
 
 import { Link } from "react-router-dom";
 
@@ -42,10 +46,10 @@ const BestProducts = () => {
 
         <div className="card_sect">
           <div className="image">
-            <img src={chair3} alt="" />
+            <img src={tvstand4} alt="" />
           </div>
           <div className="name_text">
-            <Link to="/shop/id">Comfortable Couch</Link>
+            <Link to="/shop/id">Wooden TV Stand</Link>
           </div>
           <div className="rating">
             <i class="fa-solid fa-star"></i>
@@ -64,10 +68,10 @@ const BestProducts = () => {
 
         <div className="card_sect">
           <div className="image">
-            <img src={chair4} alt="" />
+            <img src={couch} alt="" />
           </div>
           <div className="name_text">
-            <Link to="/shop/id">Tv Stand</Link>
+            <Link to="/shop/id">Yellow Sofa</Link>
           </div>
           <div className="rating">
             <i class="fa-solid fa-star"></i>
@@ -86,7 +90,7 @@ const BestProducts = () => {
 
         <div className="card_sect">
           <div className="image">
-            <img src={chair5} alt="" />
+            <img src={table6} alt="" />
           </div>
           <div className="name_text">
             <Link to="/shop/id">Coffee Table</Link>
@@ -110,10 +114,10 @@ const BestProducts = () => {
       <div className="content_sect">
         <div className="card_sect">
           <div className="image">
-            <img src={chair1} alt="" />
+            <img src={tvstand5} alt="" />
           </div>
           <div className="name_text">
-            <Link to="/shop/id">Comfortable Chair</Link>
+            <Link to="/shop/id">TV Stand Blue White</Link>
           </div>
           <div className="rating">
             <i class="fa-solid fa-star"></i>
@@ -132,10 +136,10 @@ const BestProducts = () => {
 
         <div className="card_sect">
           <div className="image">
-            <img src={chair3} alt="" />
+            <img src={table7} alt="" />
           </div>
           <div className="name_text">
-            <Link to="/shop/id">Comfortable Couch</Link>
+            <Link to="/shop/id">Watson Coffee Table</Link>
           </div>
           <div className="rating">
             <i class="fa-solid fa-star"></i>
@@ -176,10 +180,10 @@ const BestProducts = () => {
 
         <div className="card_sect">
           <div className="image">
-            <img src={chair5} alt="" />
+            <img src={chair14} alt="" />
           </div>
           <div className="name_text">
-            <Link to="/shop/id">Coffee Table</Link>
+            <Link to="/shop/id">Joss Chair </Link>
           </div>
           <div className="rating">
             <i class="fa-solid fa-star"></i>
@@ -202,10 +206,10 @@ const BestProducts = () => {
         <div className="content_sect">
           <div className="card_sect">
             <div className="image">
-              <img src={couch5} alt="" />
+              <img src={chair2} alt="" />
             </div>
             <div className="name_text">
-              <Link to="/shop/id">Flat wooden Dining Chair</Link>
+              <Link to="/shop/id">Black Armchair </Link>
             </div>
             <div className="rating">
               <i class="fa-solid fa-star"></i>
@@ -224,7 +228,7 @@ const BestProducts = () => {
 
           <div className="card_sect">
             <div className="image">
-              <img src={couch4} alt="" />
+              <img src={couch9} alt="" />
             </div>
             <div className="name_text">
               <Link to="/shop/id">Flat wooden Dining Chair</Link>
@@ -249,7 +253,7 @@ const BestProducts = () => {
               <img src={table2} alt="" />
             </div>
             <div className="name_text">
-              <Link to="/shop/id">Flat wooden Dining Chair</Link>
+              <Link to="/shop/id">Study Table</Link>
             </div>
             <div className="rating">
               <i class="fa-solid fa-star"></i>
@@ -257,8 +261,8 @@ const BestProducts = () => {
             </div>
             <div className="price_cart">
               <div className="price">
-                <div className="was">R850.00</div>
-                <div className="current">R699.00</div>
+                <div className="was">R4850.00</div>
+                <div className="current">R3599.00</div>
               </div>
               <div className="add_icon">
                 <i class="fa-solid fa-cart-shopping"></i>
@@ -268,7 +272,7 @@ const BestProducts = () => {
 
           <div className="card_sect">
             <div className="image">
-              <img src={tvstand1} alt="" />
+              <img src={tvstand3} alt="" />
             </div>
             <div className="name_text">
               <Link to="/shop/id">Flat wooden Dining Chair</Link>

@@ -14,9 +14,11 @@ const BestShoping = () => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet
             labore delectus neque tenetur dolores inventore.
           </p>
-          <button className="btn_sop">
-            <Link to="/shop">Shop Now</Link>
-          </button>
+          <div className="btn-container">
+            <button className="btn_sop">
+              <Link to="/shop">Shop Now</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
