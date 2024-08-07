@@ -134,3 +134,35 @@
     line-height: 60px;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .content-text {
+    width: 280px;
+    padding: 20px;
+  }
+  .heading {
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .container p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .shop-btn {
+    margin-top: 40px;
+  }
+  .submit {
+    font-size: 18px;
+    font-weight: 300;
+    padding: 8px 28px;
+  }
+  .product-section h1 {
+    font-size: 22px;
+  }
+  .collections h1 {
+    font-size: 22px;
+  }
+  .sales h1 {
+    font-size: 22px;
+  }
+}

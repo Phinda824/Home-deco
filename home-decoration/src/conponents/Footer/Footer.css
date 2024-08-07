@@ -155,3 +155,43 @@
     font-size: 16px;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .footer {
+    margin-top: 50px;
+    padding: 20px 30px;
+  }
+  .footer_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    row-gap: 30px;
+  }
+  .card {
+    width: 100%;
+  }
+  .card .text {
+    width: 160px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .text_header {
+    height: 40px;
+    position: relative;
+  }
+  .text_header h1 {
+    font-size: 16px;
+  }
+  .infor {
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .copyright {
+    margin-top: 30px;
+    font-size: 12px;
+  }
+}

@@ -71,3 +71,23 @@
     line-height: 18px;
   }
 }
+
+@media only screen and (max-width: 325px) {
+  .card-block {
+    top: 95%;
+  }
+  .card-preview {
+    width: 285px;
+    height: 100px;
+    gap: 6px;
+    padding: 7px;
+  }
+  .block i {
+    font-size: 18px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
