@@ -79,3 +79,21 @@
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .shop_text {
+    justify-content: space-between;
+    gap: 20px;
+    padding: 0 20px;
+  }
+  .shop_text p {
+    width: 400px;
+    font-size: 14px;
+  }
+  .btn-container {
+    width: 400px;
+  }
+  .btn_sop {
+    font-size: 14px;
+  }
+}

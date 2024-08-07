@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
@@ -18,6 +18,10 @@ const nav_links = [
 ];
 
 const Header = () => {
+  const menuRef = useRef(null);
+
+  const menuToggle = () => menuRef.current.classList.toggle("active_menu");
+
   return (
     <div className="navbar">
       <div className="logo">
@@ -25,7 +29,7 @@ const Header = () => {
         <p>H.Decor</p>
       </div>
 
-      <ul className="menu">
+      <ul className="menu" ref={menuRef} onClick={menuToggle}>
         {nav_links.map((item, index) => (
           <li className="nav_item" key={index}>
             <NavLink
@@ -54,7 +58,7 @@ const Header = () => {
         </div>
 
         <div className="menu_icon">
-          <span>
+          <span onClick={menuToggle}>
             <i class="fa-solid fa-bars"></i>
           </span>
         </div>

@@ -36,7 +36,6 @@
   font-size: 18px;
   font-weight: 300;
   list-style: none;
-  color: #ffffff;
   cursor: pointer;
 }
 .rigth_side {
@@ -130,13 +129,21 @@ a {
     right: 0;
     width: 250px;
     height: 100vh;
-    background: #8a3838;
+    background: #3b3846;
     z-index: 10000;
     flex-direction: column;
+    gap: 50px;
     padding: 0 30px;
     display: none;
   }
+  .active_menu {
+    display: block;
+  }
   .menu_icon {
     display: block;
+  }
+  .nav_item {
+    margin-top: 40px;
+    text-align: center;
   }
 }

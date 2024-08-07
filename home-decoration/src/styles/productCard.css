@@ -120,3 +120,20 @@
     row-gap: 50px;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .content-section {
+    margin-top: 50px;
+    padding: 0 30px;
+  }
+  .content-sect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 50px;
+  }
+  .card-sect .image {
+    width: 240px;
+    height: 240px;
+  }
+}

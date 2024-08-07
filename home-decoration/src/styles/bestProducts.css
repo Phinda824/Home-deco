@@ -123,3 +123,24 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  .content_section {
+    margin-top: 40px;
+    padding: 0 30px;
+  }
+  .content_sect {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 50px;
+  }
+  .btn {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .card_sect .image {
+    width: 240px;
+    height: 240px;
+  }
+}

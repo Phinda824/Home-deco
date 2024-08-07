@@ -1,6 +1,6 @@
 .card-block {
   position: absolute;
-  top: 100%;
+  top: 10 0%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -49,5 +49,25 @@
     width: 100%;
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .card-block {
+    top: 90%;
+  }
+  .card-preview {
+    width: 500px;
+    height: 120px;
+    gap: 7px;
+    padding: 10px;
+  }
+  .block i {
+    font-size: 22px;
+  }
+  .block p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 18px;
   }
 }
