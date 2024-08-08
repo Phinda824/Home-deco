@@ -10,7 +10,25 @@ import table2 from "/images/table2.jpg";
 import couch3 from "/images/couch3.jpg";
 import { Link } from "react-router-dom";
 
+import { useDispatch } from "react-redux";
+import { cartActions } from "../../redux/slices/cartSlice";
+
 const ProductCard = () => {
+  const dispatch = useDispatch();
+
+  const addToCart = () => {
+    dispatch(
+      cartActions.addItem({
+        id: item.id,
+        productName: item.productName,
+        price: item.price,
+        image: item.imgUrl,
+      })
+    );
+
+    alert("product added to the cart");
+  };
+
   return (
     <div className="content-section">
       <div className="content-sect">
@@ -30,7 +48,7 @@ const ProductCard = () => {
               <div className="was">R850.00</div>
               <div className="current">R699.00</div>
             </div>
-            <div className="add_icon">
+            <div className="add_icon" onClick={addToCart}>
               <i class="fa-solid fa-cart-shopping"></i>
             </div>
           </div>
