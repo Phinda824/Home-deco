@@ -1,11 +1,107 @@
-import React from "react";
+import React, { useState } from "react";
 import CommonSection from "../conponents/UI/CommonSection";
 import { Container } from "reactstrap";
+import "../styles/shop.css";
+import products from "../assets/data/products";
+import ProductsList from "../conponents/UI/ProductList";
 
 const Shop = () => {
+  const [productsData, setProductsData] = useState(products);
+
+  const handleFilter = (e) => {
+    const filterValue = e.target.value;
+    if (filterValue == "sofa") {
+      const filteredProducts = products.filter(
+        (item) => item.category == "sofa"
+      );
+
+      setProductsData(filteredProducts);
+    }
+
+    if (filterValue == "chair") {
+      const filteredProducts = products.filter(
+        (item) => item.category == "chair"
+      );
+
+      setProductsData(filteredProducts);
+    }
+
+    if (filterValue == "table") {
+      const filteredProducts = products.filter(
+        (item) => item.category == "table"
+      );
+
+      setProductsData(filteredProducts);
+    }
+
+    if (filterValue == "bed") {
+      const filteredProducts = products.filter(
+        (item) => item.category == "bed"
+      );
+
+      setProductsData(filteredProducts);
+    }
+  };
+
+  const handleSearch = (e) => {
+    const searchTerm = e.target.value;
+
+    const searchProducts = products.filter((item) =>
+      item.productName.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    setProductsData(searchProducts);
+  };
+
   return (
     <div>
       <CommonSection title="Products" />
+
+      <section>
+        <Container>
+          <div className="container-section">
+            <div className="first_section">
+              <div className="filter_widget">
+                <select onChange={handleFilter}>
+                  <option>Filter By Category</option>
+                  <option value="sofa">Sofa</option>
+                  <option value="chair">Chair</option>
+                  <option value="table">Table</option>
+                  <option value="bed">Bed</option>
+                </select>
+              </div>
+            </div>
+            <div className="second_section">
+              <div className="filter_widget">
+                <select>
+                  <option>Sort By</option>
+                  <option value="ascending">Ascending</option>
+                  <option value="descending">Descending</option>
+                </select>
+              </div>
+            </div>
+            <div className="search_box">
+              <input
+                type="text"
+                placeholder="Search......."
+                onChange={handleSearch}
+              />
+              <span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </span>
+            </div>
+          </div>
+        </Container>
+      </section>
+      <section>
+        <Container>
+          {productsData.length == 0 ? (
+            <h1 className="results">No products are found</h1>
+          ) : (
+            <ProductsList data={productsData} />
+          )}
+        </Container>
+      </section>
     </div>
   );
 };
