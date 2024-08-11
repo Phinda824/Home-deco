@@ -30,7 +30,7 @@ const ProductCard = ({ item }) => {
       </div>
       <div className="product_info">
         <h3 className="product_name">
-          <Link to={`/shop/$item.id`}>{item.productName}</Link>
+          <Link to={`/shop/${item.id}`}>{item.productName}</Link>
         </h3>
         <span>{item.category}</span>
       </div>
