@@ -65,3 +65,99 @@
 .buy_btn:hover {
   transform: scale(1.1);
 }
+
+.tab_container {
+  padding: 80px;
+}
+.tab_wrapper {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.tab_wrapper {
+  font-size: 20px;
+  font-weight: 300;
+  color: #022a36;
+  cursor: pointer;
+}
+.tab_content {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #5b5a63;
+  margin-top: 25px;
+  line-height: 30px;
+}
+.active_tab {
+  font-weight: 500;
+}
+.product_review ul {
+  list-style: none;
+}
+.product_review ul li {
+  margin-top: 20px;
+}
+.product_review ul li span {
+  font-size: 18px;
+  color: #eb9b08;
+}
+.product_review ul li p {
+  margin-top: 10px;
+}
+.form_review {
+  margin-top: 50px;
+}
+.form_review h1 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #022a36;
+}
+.form_group {
+  width: 600px;
+  margin-top: 20px;
+}
+.form_group input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #a09fa8;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #a09fa8;
+  outline: none;
+}
+.form_rate {
+  width: 600px;
+  display: flex;
+  flex-direction: flex-start;
+  align-items: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+.form_rate span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.form_rate span i {
+  font-size: 18px;
+  color: #eb9b08;
+  cursor: pointer;
+}
+.form_group textarea {
+  width: 100%;
+  height: 120px;
+  border: 1px solid #a09fa8;
+  padding: 0 10px;
+  font-size: 16px;
+  color: #a09fa8;
+  outline: none;
+}
+.related_header {
+  font-size: 26px;
+  font-weight: 500;
+  color: #022a36;
+  padding: 0 80px;
+  margin-bottom: -20px;
+}
