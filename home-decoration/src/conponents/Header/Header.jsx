@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 
 import { useSelector } from "react-redux";
@@ -21,9 +21,15 @@ const nav_links = [
 
 const Header = () => {
   const menuRef = useRef(null);
+  const navigate = useNavigate();
+
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
 
   const menuToggle = () => menuRef.current.classList.toggle("active_menu");
+
+  const navigateToCart = () => {
+    navigate("/cart");
+  };
 
   return (
     <div className="navbar">
@@ -54,7 +60,7 @@ const Header = () => {
             <i class="fa-regular fa-heart"></i>
             <span className="count">0</span>
           </span>
-          <span className="cart_icon">
+          <span className="cart_icon" onClick={navigateToCart}>
             <i class="fa-solid fa-bag-shopping"></i>
             <span className="count">{totalQuantity}</span>
           </span>

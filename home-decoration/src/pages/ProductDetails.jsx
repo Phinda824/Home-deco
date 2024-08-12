@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 
 import { useParams } from "react-router-dom";
 import products from "../assets/data/products";
@@ -33,11 +33,19 @@ const ProductDetails = () => {
 
   const relatedProducts = products.filter((item) => item.category == category);
 
-  const submitHandle = (e) => {
-    e.ProductDetails();
+  const submitHandler = (e) => {
+    e.preventDefault();
 
     const reviewUserName = reviewUser.current.value;
     const reviewUserMsg = reviewMsg.current.value;
+
+    const reviewObj = {
+      userName: reviewUserName,
+      text: reviewUserMsg,
+      rating,
+    };
+    console.log(reviewObj);
+    toast.success("Review submited");
   };
 
   const addToCart = () => {
@@ -52,9 +60,13 @@ const ProductDetails = () => {
     toast.success("Product added successfully");
   };
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [product]);
+
   return (
     <div>
-      <CommonSection />
+      <CommonSection title={productName} />
 
       <div className="detail_container">
         <div className="img_container">
@@ -129,12 +141,13 @@ const ProductDetails = () => {
 
               <div className="form_review">
                 <h1>Leave your experience</h1>
-                <form action="" onSubmit={submitHandle}>
+                <form action="" onSubmit={submitHandler}>
                   <div className="form_group">
                     <input
                       type="text"
                       placeholder="Enter name"
                       ref={reviewUser}
+                      required
                     />
                   </div>
 
@@ -161,6 +174,7 @@ const ProductDetails = () => {
                       ref={reviewMsg}
                       type="text"
                       placeholder="Review Message"
+                      required
                     />
                   </div>
 
