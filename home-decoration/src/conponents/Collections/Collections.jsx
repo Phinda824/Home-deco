@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import preview3 from "/images/preview3.jpg";
+import preview3 from "/images/dinning1.webp";
 import preview from "/images/preview.jpeg";
 import bedroom from "/images/bedroom1.webp";
 import tvstand from "/images/tvstand.jpg";

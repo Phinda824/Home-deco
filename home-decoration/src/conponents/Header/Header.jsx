@@ -33,9 +33,32 @@ const Header = () => {
 
   return (
     <div className="navbar">
-      <div className="logo">
-        <i class="fa-solid fa-chair"></i>
-        <p>H.Decor</p>
+      <div className="top_nav">
+        <div className="logo">
+          <i class="fa-solid fa-chair"></i>
+          <p>H.Decor</p>
+        </div>
+        <div className="rigth_side">
+          <div className="nav_login">
+            <button>Login</button>
+          </div>
+          <div className="nav_icons">
+            <span className="fav_icon">
+              <i class="fa-regular fa-heart"></i>
+              <span className="count">0</span>
+            </span>
+            <span className="cart_icon" onClick={navigateToCart}>
+              <i class="fa-solid fa-bag-shopping"></i>
+              <span className="count">{totalQuantity}</span>
+            </span>
+          </div>
+
+          <div className="menu_icon">
+            <span onClick={menuToggle}>
+              <i class="fa-solid fa-bars"></i>
+            </span>
+          </div>
+        </div>
       </div>
 
       <ul className="menu" ref={menuRef} onClick={menuToggle}>
@@ -50,28 +73,6 @@ const Header = () => {
           </li>
         ))}
       </ul>
-
-      <div className="rigth_side">
-        <div className="nav_login">
-          <button>Login</button>
-        </div>
-        <div className="nav_icons">
-          <span className="fav_icon">
-            <i class="fa-regular fa-heart"></i>
-            <span className="count">0</span>
-          </span>
-          <span className="cart_icon" onClick={navigateToCart}>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <span className="count">{totalQuantity}</span>
-          </span>
-        </div>
-
-        <div className="menu_icon">
-          <span onClick={menuToggle}>
-            <i class="fa-solid fa-bars"></i>
-          </span>
-        </div>
-      </div>
     </div>
   );
 };

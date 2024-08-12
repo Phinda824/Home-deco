@@ -35,7 +35,7 @@ const ProductCard = ({ item }) => {
         <span>{item.category}</span>
       </div>
       <div className="product_card-bottom">
-        <span className="price">${item.price}</span>
+        <span className="price">R {item.price}</span>
         <span onClick={addToCart}>
           <i class="fa-solid fa-cart-shopping"></i>
         </span>

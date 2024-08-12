@@ -34,13 +34,10 @@ const Home = () => {
       <div className="content">
         <div className="content-text">
           <div className="heading">
-            Make Your Interior More Minimalistic & Modern
+            High Quality & Durable <br />{" "}
+            <span>Furniture Perfect Products</span> <br />
+            Made To Last For Lifetime
           </div>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni modi
-            animi harum sit reprehenderit incidunt est distinctio cumque!
-            Quaerat, hic!
-          </p>
           <div className="shop-btn">
             <button className="submit">
               <Link to="/shop">Shop Now</Link>
@@ -53,19 +50,31 @@ const Home = () => {
       <div className="sales-container">
         <div className="product-section">
           <h1>See Our Quality Product</h1>
+          <div className="border_line">
+            <p></p>
+          </div>
           <ProductList data={trendingProducts} />
         </div>
         <div className="collections">
           <h1>New Collections</h1>
+          <div className="border_line">
+            <p></p>
+          </div>
           <Collections />
         </div>
         <div className="sales">
           <h1>Our Best Sales</h1>
+          <div className="border_line">
+            <p></p>
+          </div>
           <ProductList data={bestSalesProducts} />
         </div>
         <BestShoping />
         <div className="sales">
           <h1>Testimonial</h1>
+          <div className="border_line">
+            <p></p>
+          </div>
           <Testimonial />
         </div>
       </div>

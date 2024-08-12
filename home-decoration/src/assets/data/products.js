@@ -1,16 +1,21 @@
-import productImg01 from "/images/couch3.jpg";
-import productImg02 from "/images/couch2.webp";
-import productImg03 from "/images/chair8.webp";
+import productImg01 from "/images/couch4.jpg";
+import productImg02 from "/images/couch5.jpg";
+import productImg03 from "/images/couch6.jpg";
 
-import productImg04 from "/images/chair1.webp";
-import productImg05 from "/images/chair2.jpg";
-import productImg06 from "/images/chair3.webp";
-import productImg007 from "/images/chair9.jpg";
+import productImg04 from "/images/couch7.jpg";
+import productImg05 from "/images/couch8.jpg";
+import productImg06 from "/images/chair4.png";
+import productImg007 from "/images/chair5.jpg";
 
-import productImg07 from "/images/chair10.jpg";
-import productImg08 from "/images/chair11.jpg";
-import productImg09 from "/images/chair14.webp";
-import productImg10 from "/images/Table1.jpg";
+import productImg07 from "/images/chair9.webp";
+import productImg08 from "/images/chair2.jpg";
+import productImg09 from "/images/chair12.jpeg";
+import productImg10 from "/images/chair6.webp";
+
+import productImg11 from "/images/tvstand3.jpg";
+import productImg12 from "/images/tvstand4.jpg";
+import productImg13 from "/images/tvstand5.jpg";
+import productImg14 from "/images/chair6.webp";
 
 const products = [
   {
@@ -169,10 +174,10 @@ const products = [
   },
   {
     id: "07",
-    productName: "Sakarias Armchair",
+    productName: "Paola Wing Chair",
     imgUrl: productImg07,
     category: "chair",
-    price: 99,
+    price: 2999.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -218,7 +223,7 @@ const products = [
     productName: "Baltsar Chair",
     imgUrl: productImg08,
     category: "chair",
-    price: 89,
+    price: 1499.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -238,10 +243,10 @@ const products = [
 
   {
     id: "09",
-    productName: "Helmar Chair",
+    productName: "DUKE Lounge Armchair",
     imgUrl: productImg09,
     category: "chair",
-    price: 112,
+    price: 1999.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
@@ -264,7 +269,76 @@ const products = [
     productName: "Sakarias Armchair",
     imgUrl: productImg10,
     category: "chair",
-    price: 99,
+    price: 1499.99,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+
+  {
+    id: "26",
+    productName: "Red Tv Stand",
+    imgUrl: productImg11,
+    category: "stand",
+    price: 1499.99,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+
+  {
+    id: "27",
+    productName: "Wooden Tv Stand",
+    imgUrl: productImg12,
+    category: "stand",
+    price: 1499.99,
+    shortDesc:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+    reviews: [
+      {
+        rating: 4.6,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+      {
+        rating: 4.9,
+        text: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      },
+    ],
+    avgRating: 4.7,
+  },
+
+  {
+    id: "28",
+    productName: "Modern Tv Stand",
+    imgUrl: productImg13,
+    category: "stand",
+    price: 1499.99,
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:

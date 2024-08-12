@@ -20,18 +20,15 @@
   padding: 30px;
 }
 .heading {
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 500;
   color: #022a36;
   line-height: 68px;
   text-align: center;
 }
-.container p {
-  font-size: 18px;
-  color: #022a36;
-  margin-top: 25px;
-  line-height: 30px;
-  text-align: center;
+.heading span {
+  font-size: 50px;
+  font-weight: 600;
 }
 .shop-btn {
   margin-top: 50px;
@@ -56,7 +53,20 @@
 }
 
 .sales-container {
-  margin-top: 230px;
+  margin-top: 200px;
+}
+.border_line {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border_line p {
+  width: 150px;
+  height: 2px;
+  border-radius: 30px;
+  background: #cc8f1d;
+  margin-top: 20px;
 }
 .product-section h1 {
   font-size: 38px;
