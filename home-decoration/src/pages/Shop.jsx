@@ -26,9 +26,9 @@ const Shop = () => {
       setProductsData(filteredProducts);
     }
 
-    if (filterValue == "table") {
+    if (filterValue == "stand") {
       const filteredProducts = products.filter(
-        (item) => item.category == "table"
+        (item) => item.category == "stand"
       );
 
       setProductsData(filteredProducts);
