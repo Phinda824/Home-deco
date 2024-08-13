@@ -3,6 +3,8 @@ import "../styles/home.css";
 
 import { Link } from "react-router-dom";
 import products from "../assets/data/products";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Variants";
 
 import Service from "../conponents/Services/Service";
 import ProductList from "../conponents/UI/ProductList";
@@ -33,11 +35,17 @@ const Home = () => {
     <div className="container">
       <div className="content">
         <div className="content-text">
-          <div className="heading">
+          <motion.div
+            variants={fadeIn("up", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="heading"
+          >
             High Quality & Durable <br />{" "}
             <span>Furniture Perfect Products</span> <br />
             Made To Last For Lifetime
-          </div>
+          </motion.div>
           <div className="shop-btn">
             <button className="submit">
               <Link to="/shop">Shop Now</Link>
@@ -57,9 +65,15 @@ const Home = () => {
         </div>
         <div className="collections">
           <h1>New Collections</h1>
-          <div className="border_line">
+          <motion.div
+            variants={fadeIn("right", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.7 }}
+            className="border_line"
+          >
             <p></p>
-          </div>
+          </motion.div>
           <Collections />
         </div>
         <div className="sales">

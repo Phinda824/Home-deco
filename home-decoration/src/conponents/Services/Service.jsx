@@ -1,10 +1,19 @@
 import React from "react";
 import "./Service.css";
 
+import { motion } from "framer-motion";
+import { fadeIn } from "../../Variants";
+
 const Service = () => {
   return (
     <div className="card-block">
-      <div className="card-preview">
+      <motion.div
+        variants={fadeIn("up", 0.2)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.7 }}
+        className="card-preview"
+      >
         <div className="block">
           <div className="icon">
             <i class="fa-solid fa-pen-ruler"></i>
@@ -29,7 +38,7 @@ const Service = () => {
           </div>
           <p>12 Months Guarantee</p>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

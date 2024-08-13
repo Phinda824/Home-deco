@@ -5,6 +5,9 @@ import "../styles/shop.css";
 import products from "../assets/data/products";
 import ProductsList from "../conponents/UI/ProductList";
 
+import { motion } from "framer-motion";
+import { fadeIn } from "../Variants";
+
 const Shop = () => {
   const [productsData, setProductsData] = useState(products);
 
@@ -60,7 +63,13 @@ const Shop = () => {
       <section>
         <Container>
           <div className="container-section">
-            <div className="first_section">
+            <motion.div
+              variants={fadeIn("up", 0.2)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="first_section"
+            >
               <div className="filter_widget">
                 <select onChange={handleFilter}>
                   <option>Filter By Category</option>
@@ -70,8 +79,14 @@ const Shop = () => {
                   <option value="bed">Bed</option>
                 </select>
               </div>
-            </div>
-            <div className="second_section">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 0.3)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="second_section"
+            >
               <div className="filter_widget">
                 <select>
                   <option>Sort By</option>
@@ -79,8 +94,14 @@ const Shop = () => {
                   <option value="descending">Descending</option>
                 </select>
               </div>
-            </div>
-            <div className="search_box">
+            </motion.div>
+            <motion.div
+              variants={fadeIn("up", 0.4)}
+              initial="hidden"
+              whileInView={"show"}
+              viewport={{ once: false, amount: 0.7 }}
+              className="search_box"
+            >
               <input
                 type="text"
                 placeholder="Search......."
@@ -89,7 +110,7 @@ const Shop = () => {
               <span>
                 <i class="fa-solid fa-magnifying-glass"></i>
               </span>
-            </div>
+            </motion.div>
           </div>
         </Container>
       </section>

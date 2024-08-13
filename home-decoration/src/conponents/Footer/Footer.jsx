@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copyright">
-        @Copyright 2024 developed by Simanga Phinda. All right reseverd
+        @ Copyright 2024 developed by Simanga Phinda. All right reseverd
       </div>
     </footer>
   );
