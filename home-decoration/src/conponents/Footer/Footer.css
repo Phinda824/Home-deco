@@ -12,7 +12,7 @@
   width: 100%;
 }
 .card .text {
-  width: 380px;
+  width: 450px;
   font-size: 14px;
   font-weight: 300;
   line-height: 26px;
@@ -43,6 +43,10 @@
   font-size: 16px;
   color: #aaa8af;
   font-weight: 300;
+  transition: 1s ease;
+}
+.infor li a:hover {
+  color: #ffffff;
 }
 .infor .contact {
   display: flex;

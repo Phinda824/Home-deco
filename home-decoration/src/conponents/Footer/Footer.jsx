@@ -21,25 +21,6 @@ const Footer = () => {
         </div>
         <div className="card">
           <div className="text_header">
-            <h1>Top Categories</h1>
-          </div>
-          <ul className="infor">
-            <li>
-              <Link to="#">Mobile Phone</Link>
-            </li>
-            <li>
-              <Link to="#">Arm Chair</Link>
-            </li>
-            <li>
-              <Link to="#">Modern Couch</Link>
-            </li>
-            <li>
-              <Link to="#">Modern Coffee Table</Link>
-            </li>
-          </ul>
-        </div>
-        <div className="card">
-          <div className="text_header">
             <h1>Useful Links</h1>
           </div>
           <ul className="infor">

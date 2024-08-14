@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 
@@ -38,6 +38,7 @@ const Header = () => {
           <i class="fa-solid fa-chair"></i>
           <p>H.Decor</p>
         </div>
+
         <div className="rigth_side">
           <div className="nav_login">
             <button>Login</button>
