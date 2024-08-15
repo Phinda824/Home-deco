@@ -4,9 +4,13 @@ import CommonSection from "../conponents/UI/CommonSection";
 
 import { cartActions } from "../redux/slices/cartSlice";
 import { useSelector, useDispatch } from "react-redux";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+import { fadeIn } from "../Variants";
 
 const Cart = () => {
   const cartItems = useSelector((state) => state.cart.cartItems);
+  const totalAmount = useSelector((state) => state.cart.totalAmount);
 
   return (
     <div className="cart_container">
@@ -38,6 +42,36 @@ const Cart = () => {
             {cartItems.map((item, index) => (
               <Tr item={item} key={index} />
             ))}
+
+            <div className="count_section">
+              <motion.div
+                variants={fadeIn("right", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+              >
+                <div className="count_total">
+                  <h1>Subtotal</h1>
+                  <div className="total_amount">${totalAmount}</div>
+                </div>
+                <p>Taxes and shipping will calculate in checkout</p>
+              </motion.div>
+
+              <motion.div
+                variants={fadeIn("left", 0.2)}
+                initial="hidden"
+                whileInView={"show"}
+                viewport={{ once: false, amount: 0.7 }}
+                className="buttons"
+              >
+                <button className="buy_btn">
+                  <Link to="/shop">Continue Shopping</Link>
+                </button>
+                <button className="buy_btn">
+                  <Link to="/checkout">Proceed to Checkout</Link>
+                </button>
+              </motion.div>
+            </div>
           </div>
         )}
       </div>

@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 
 import { useSelector } from "react-redux";
@@ -41,7 +41,9 @@ const Header = () => {
 
         <div className="rigth_side">
           <div className="nav_login">
-            <button>Login</button>
+            <button>
+              <Link to="/login">Login</Link>
+            </button>
           </div>
           <div className="nav_icons">
             <span className="fav_icon">
