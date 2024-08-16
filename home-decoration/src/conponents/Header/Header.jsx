@@ -3,6 +3,11 @@ import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 
 import { useSelector } from "react-redux";
+import useAuth from "../../custom-hooks/useAuth";
+import { signOut } from "firebase/auth";
+import { auth } from "../../firebase.config";
+
+import user from "/images/User1.webp";
 
 const nav_links = [
   {
@@ -22,14 +27,30 @@ const nav_links = [
 const Header = () => {
   const menuRef = useRef(null);
   const navigate = useNavigate();
+  const { currentUser } = useAuth();
 
   const totalQuantity = useSelector((state) => state.cart.totalQuantity);
+  const profileActionRef = useRef(null);
 
   const menuToggle = () => menuRef.current.classList.toggle("active_menu");
+
+  const logout = () => {
+    signOut(auth)
+      .then(() => {
+        toast.success("Signed out");
+        navigate("/home");
+      })
+      .catch((err) => {
+        toast.error(err.message);
+      });
+  };
 
   const navigateToCart = () => {
     navigate("/cart");
   };
+
+  const toggleProfileActions = () =>
+    profileActionRef.current.classList.toggle("show_profileActions");
 
   return (
     <div className="navbar">
@@ -40,10 +61,28 @@ const Header = () => {
         </div>
 
         <div className="rigth_side">
-          <div className="nav_login">
-            <button>
-              <Link to="/login">Login</Link>
-            </button>
+          <div className="login_cont">
+            <div className="nav_login">
+              <img
+                src={currentUser ? currentUser.photoURL : user}
+                alt=""
+                onClick={toggleProfileActions}
+              />
+            </div>
+            <div
+              className="profile_action"
+              ref={profileActionRef}
+              onClick={toggleProfileActions}
+            >
+              {currentUser ? (
+                <p onClick={logout}>Sign out</p>
+              ) : (
+                <div className="sign">
+                  <Link to="/signup">Signup</Link>
+                  <Link to="/login">Login</Link>
+                </div>
+              )}
+            </div>
           </div>
           <div className="nav_icons">
             <span className="fav_icon">

@@ -30,22 +30,56 @@
   color: #ca880c;
   margin-left: 15px;
 }
-.nav_login {
-  width: 80px;
-  height: 35px;
-  background: #3b3846;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 20px;
-  border-radius: 20px;
+.rigth_side {
+  position: relative;
 }
-.nav_login button {
-  font-size: 16px;
+.profile_action {
+  width: 140px;
+  height: 80px;
+  background: #a6bbc2;
+  position: absolute;
+  top: 169%;
+  right: -72%;
+  cursor: pointer;
+  display: none;
+  z-index: 1000;
+}
+.profile_action p {
+  font-size: 18px;
   font-weight: 500;
-  color: #ffffff;
-  background: transparent;
-  border: none;
+  color: #022a36;
+  text-align: center;
+  margin-top: 27px;
+}
+.sign {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 7px;
+}
+.sign a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #022a36;
+  text-align: center;
+}
+.sign a:hover {
+  text-decoration: underline;
+}
+.show_profileActions {
+  display: block;
+}
+.nav_login {
+  width: 30px;
+  height: 30px;
+  background-color: #bbced4;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.nav_login img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
 }
 .nav_icons {
