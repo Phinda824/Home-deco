@@ -20,13 +20,13 @@ const Testimonial = () => {
           <div className="person-face">
             <img src={face1} alt="" />
           </div>
-          <div className="name">Fiona Helen</div>
+          <div className="name">Vusumzi Nola</div>
           <div className="quotes">
             <i class="fa-solid fa-quote-left"></i>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum
-            esse explicabo non fugiat quis.
+            Very pleased with the quality. Also fantastic service: great
+            communication regarding delivery and quickly assembled
           </p>
         </motion.div>
         <motion.div
@@ -44,8 +44,9 @@ const Testimonial = () => {
             <i class="fa-solid fa-quote-left"></i>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum
-            esse explicabo non fugiat quis.
+            My dining room looks stylish L love my chairs. the process was so
+            quick too the order was place on Thursday my chairs were here on
+            Monday!!
           </p>
         </motion.div>
         <motion.div
@@ -63,8 +64,9 @@ const Testimonial = () => {
             <i class="fa-solid fa-quote-left"></i>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ipsum
-            esse explicabo non fugiat quis.
+            Thank you to your technical staff that came to assemble the
+            cupboard. Very friendly, on time and very professional in the
+            workmanship.Also a 5 star for them.
           </p>
         </motion.div>
       </div>

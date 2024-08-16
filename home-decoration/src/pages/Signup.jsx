@@ -117,7 +117,7 @@ const Signup = () => {
               />
             </div>
 
-            <div className="form_sect">
+            <div className="file_sect">
               <input type="file" onChange={(e) => setFile(e.target.files[0])} />
             </div>
 

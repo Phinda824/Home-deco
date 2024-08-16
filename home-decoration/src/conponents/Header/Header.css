@@ -9,6 +9,10 @@
   background: #ffffff;
   padding: 15px 90px;
 }
+.logo_img img {
+  width: 150px;
+  cursor: pointer;
+}
 .logo {
   width: 130px;
   padding: 0 5px 10px 10px;

@@ -8,6 +8,7 @@ import { signOut } from "firebase/auth";
 import { auth } from "../../firebase.config";
 
 import user from "/images/User1.webp";
+import logoIcon from "/images/logo.png";
 
 const nav_links = [
   {
@@ -55,9 +56,10 @@ const Header = () => {
   return (
     <div className="navbar">
       <div className="top_nav">
-        <div className="logo">
-          <i class="fa-solid fa-chair"></i>
-          <p>H.Decor</p>
+        <div className="logo_img">
+          <Link to="/home">
+            <img src={logoIcon} alt="" />
+          </Link>
         </div>
 
         <div className="rigth_side">

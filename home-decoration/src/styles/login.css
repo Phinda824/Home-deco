@@ -51,6 +51,12 @@
   border: none;
   outline: none;
 }
+.file_sect {
+  margin-top: 30px;
+}
+.file_sect input {
+  width: 100%;
+}
 .login_btn {
   width: 100%;
   font-size: 20px;

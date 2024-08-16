@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { Link } from "react-router-dom";
+import logoIcon from "/images/logo.png";
 
 const Footer = () => {
   return (
@@ -8,9 +9,8 @@ const Footer = () => {
       <div className="footer_container">
         <div className="card">
           <div className="text_header">
-            <div className="logo">
-              <i class="fa-solid fa-chair"></i>
-              <p>H.Decor</p>
+            <div className="logo_img">
+              <img src={logoIcon} alt="" />
             </div>
           </div>
           <div className="text">
