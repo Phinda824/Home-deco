@@ -104,7 +104,7 @@ const Shop = () => {
             >
               <input
                 type="text"
-                placeholder="Search......."
+                placeholder="Search Furniture"
                 onChange={handleSearch}
               />
               <span>
