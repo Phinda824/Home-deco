@@ -23,11 +23,11 @@ const products = [
     productName: "Stone and Beam Westview ",
     imgUrl: productImg01,
     category: "sofa",
-    price: 19399.99,
+    price: 5399.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Stone and Beam Westview 2 Seater Couch is a chic and comfortable addition to any living space. Upholstered in luxurious fabric, it is available in dark grey with options for natural or dark beech wood legs. The sturdy frame is constructed from solid wood and particle board, while the seat features pocket coils and foam for optimal comfort. This elegant sofa combines modern design with durable construction, making it an ideal choice for contemporary homes.",
     reviews: [
       {
         rating: 4.7,
@@ -42,11 +42,11 @@ const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 16999.99,
+    price: 6999.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Rivet Bigelow Modern 2 Seater Couch is a chic and comfortable addition to any living space. Upholstered in luxurious fabric, it is available in dark grey with options for natural or dark beech wood legs. The sturdy frame is constructed from solid wood and particle board, while the seat features pocket coils and foam for optimal comfort. This elegant sofa combines modern design with durable construction, making it an ideal choice for contemporary homes.",
     reviews: [
       {
         rating: 4.8,
@@ -65,11 +65,11 @@ const products = [
     productName: "Amazon Brand Modern Sofa",
     imgUrl: productImg03,
     category: "sofa",
-    price: 19999.99,
+    price: 5999.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Amazon Brand Modern 2 Seater Couch is a chic and comfortable addition to any living space. Upholstered in luxurious fabric, it is available in dark grey with options for natural or dark beech wood legs. The sturdy frame is constructed from solid wood and particle board, while the seat features pocket coils and foam for optimal comfort. This elegant sofa combines modern design with durable construction, making it an ideal choice for contemporary homes.",
     reviews: [
       {
         rating: 4.6,
@@ -87,11 +87,11 @@ const products = [
     productName: "Rivet Bigelow Modern ",
     imgUrl: productImg02,
     category: "sofa",
-    price: 25399.99,
+    price: 5399.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Rivet Bigelow Modern 2 Seater Couch combines modern design with exceptional comfort, making it a stylish addition to any living space. Upholstered in luxurious fabric, it is available in cream, dark grey, and platinum. The couch features a sturdy frame made from plywood and solid pine, with durable and slimline legs. The seat construction includes webbing and foam for added comfort. Proudly made in South Africa, the Mateo Fabric 2 Seater offers both quality and style for contemporary interiors.",
     reviews: [
       {
         rating: 4.8,
@@ -109,11 +109,11 @@ const products = [
     productName: "Fllufy Sheep Sofa",
     imgUrl: productImg04,
     category: "sofa",
-    price: 16399.99,
+    price: 6399.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Fllufy Sheep Sofa is a versatile and stylish addition to any living space. Upholstered in durable and luxurious fabric, it is available in cream, dark grey, and platinum. This couch features a sturdy plywood and solid pine frame with low profile legs. The seat construction includes webbing and foam for comfort. Proudly made in South Africa, the Fllufy Sheep 3 Seater combines modern design with comfortable seating, making it perfect for contemporary interiors.",
     reviews: [
       {
         rating: 4.6,
@@ -132,11 +132,11 @@ const products = [
     productName: "Faux Velvet Sofa",
     imgUrl: productImg05,
     category: "sofa",
-    price: 16599.99,
+    price: 3499.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Faux Velvet Sofa is a luxurious blend of mid-century sophistication, comfort and craftsmanship. Experience timeless style with its low profile, clean lines and metal legs, enriched by intricate welting and channel tufting details. The sturdy construction and pocket spring and foam seat create an indulgent and sturdy seating experience that will last.",
     reviews: [
       {
         rating: 4.6,
@@ -155,11 +155,11 @@ const products = [
     productName: "Fllufy Sheep Sofa",
     imgUrl: productImg06,
     category: "sofa",
-    price: 15999.99,
+    price: 4999.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "Upgrade your living space with the Fllufy Sheep Sofa, a perfect blend of style and functionality",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Fllufy Sheep Sofa effortlessly combines modern design with luxurious comfort. Upholstered in a premium fabric, it is available in rich Dark Grey and sleek Platinum, making it a versatile addition to any living space. With its clean lines and generously padded cushions, this sofa is perfect for relaxing in style. Proudly made in South Africa, it reflects quality craftsmanship",
     reviews: [
       {
         rating: 4.6,
@@ -179,9 +179,9 @@ const products = [
     category: "chair",
     price: 2999.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Indulge in unparalleled comfort with the Caterina Fabric 3 Seater Sofa, upholstered in luxurious corduroy fabric. This stylish sofa offers a contemporary aesthetic, featuring plush cushioning and broad armrests for maximum relaxation. The sumptuous corduroy texture adds a touch of sophistication, making it a perfect addition to any modern or eclectic living room. Whether you're lounging with a book or entertaining guests, the Caterina 3 Seater couch ensures a cosy and elegant seating experience.",
     reviews: [
       {
         rating: 4.6,
@@ -200,11 +200,11 @@ const products = [
     productName: "Modern Arm Sofa",
     imgUrl: productImg007,
     category: "sofa",
-    price: 17399.99,
+    price: 4399.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "Indulge in unparalleled comfort with the Modern Arm Sofa, upholstered in luxurious corduroy fabric. This stylish sofa offers a contemporary aesthetic, featuring plush cushioning and broad armrests for maximum relaxation. The sumptuous corduroy texture adds a touch of sophistication, making it a perfect addition to any modern or eclectic living room. Whether you're lounging with a book or entertaining guests, the Modern Arm Sofa ensures a cosy and elegant seating experience.",
     reviews: [
       {
         rating: 4.6,
@@ -227,7 +227,7 @@ const products = [
     shortDesc:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
+      "The Lina Fabric 3 Seater Couch is a luxurious blend of mid-century sophistication, comfort and craftsmanship. Experience timeless style with its low profile, clean lines and metal legs, enriched by intricate welting and channel tufting details. The sturdy construction and pocket spring and foam seat create an indulgent and sturdy seating experience that will last.",
     reviews: [
       {
         rating: 4.6,
@@ -294,7 +294,7 @@ const products = [
     category: "stand",
     price: 1499.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -317,7 +317,7 @@ const products = [
     category: "stand",
     price: 2799.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
@@ -340,7 +340,7 @@ const products = [
     category: "stand",
     price: 1999.99,
     shortDesc:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur iure quas illo voluptates labore tempore!",
+      "A sophisticated modern design with added cushioned comfort thanks to laser-cut high density foam seat & cushions.",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nostrum accusantium iste, voluptas cumque provident! Consequatur officiis animi rem tempore voluptate cumque hic similique aperiam ut consectetur distinctio repudiandae quia quam quos, quas illo, iusto, necessitatibus odio veniam exercitationem quis voluptatibus debitis laboriosam! Esse debitis obcaecati blanditiis at impedit quibusdam!",
     reviews: [
