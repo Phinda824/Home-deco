@@ -26,7 +26,9 @@ const ProductCard = ({ item }) => {
   return (
     <div className="product_item">
       <div className="product_img">
-        <img src={item.imgUrl} alt="" />
+        <Link to={`/shop/${item.id}`}>
+          <img src={item.imgUrl} alt="" />
+        </Link>
       </div>
       <div className="product_info">
         <h3 className="product_name">
