@@ -188,7 +188,6 @@ const ProductDetails = () => {
         )}
       </div>
       <h2 className="related_header">Other Product you may like</h2>
-
       <ProductList data={relatedProducts} />
     </div>
   );
