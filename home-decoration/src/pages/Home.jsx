@@ -42,7 +42,7 @@ const Home = () => {
             viewport={{ once: false, amount: 0.7 }}
             className="heading"
           >
-            High Quality & Durable <br />{" "}
+            High Quality & Durable <br />
             <span>Furniture Perfect Products</span> <br />
             Made To Last For Lifetime
           </motion.div>
